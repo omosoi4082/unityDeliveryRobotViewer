@@ -1,0 +1,79 @@
+# 기본 Unity 캐시 폴더 (무조건 무시)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+UserSettings/
+
+# 시스템 로그, 빌드 산출물
+*.log
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.zip
+
+# Visual Studio / Rider / VSCode
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.VC.db
+
+# Gradle & Android 빌드 캐시
+.gradle/
+ExportedObj/
+
+# Collaborate & Cloud Cache
+.collab/
+.collabignore
+
+# JetBrains plugin
+Assets/Plugins/Editor/JetBrains*
+
+# Crashlytics
+crashlytics-build.properties
+
+# Addressables 임시 파일
+Assets/AddressableAssetsData/*/*.bin*
+Assets/StreamingAssets/aa/
+Assets/StreamingAssets/aa.meta
+
+# Visual Scripting
+Assets/Unity.VisualScripting.Generated/**
+
+# Rider / VS에서 자동 생성된 meta
+*.csproj.meta
+*.sln.meta
+*.user.meta
+*.pdb.meta
+
+# 기타 Unity 시스템 파일
+sysinfo.txt
+
+# 유닛테스트 자동 생성
+*.coverage
+*.coverage.meta
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Git 임시/백업
+*.orig
+*.rej
