@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|c:\\git\\pinkyrobot\\deliveryrobotviewer\\assets\\deliveryrobotviewer\\scripts\\network\\protoclos\\websocketclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\network\\protoclos\\websocketclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|C:\\git\\pinkyrobot\\DeliveryRobotViewer\\assets\\deliveryrobotviewer\\scripts\\core\\systems\\datamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\core\\systems\\datamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|C:\\git\\pinkyrobot\\DeliveryRobotViewer\\assets\\deliveryrobotviewer\\scripts\\robot\\robotmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\robot\\robotmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|c:\\git\\pinkyrobot\\deliveryrobotviewer\\assets\\deliveryrobotviewer\\scripts\\robot\\robotlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\robot\\robotlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|C:\\git\\pinkyrobot\\DeliveryRobotViewer\\assets\\deliveryrobotviewer\\scripts\\core\\systems\\robotregisty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\core\\systems\\robotregisty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|c:\\git\\pinkyrobot\\deliveryrobotviewer\\assets\\deliveryrobotviewer\\scripts\\robot\\robotpresenterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\robot\\robotpresenterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|c:\\git\\pinkyrobot\\deliveryrobotviewer\\assets\\deliveryrobotviewer\\scripts\\robot\\robotpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\robot\\robotpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|c:\\git\\pinkyrobot\\deliveryrobotviewer\\assets\\deliveryrobotviewer\\scripts\\core\\systems\\livenesssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\core\\systems\\livenesssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|c:\\git\\pinkyrobot\\deliveryrobotviewer\\assets\\deliveryrobotviewer\\scripts\\core\\systems\\corebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\core\\systems\\corebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|c:\\git\\pinkyrobot\\deliveryrobotviewer\\assets\\deliveryrobotviewer\\scripts\\core\\interfaces\\irobotdatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\core\\interfaces\\irobotdatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|c:\\git\\pinkyrobot\\deliveryrobotviewer\\assets\\deliveryrobotviewer\\scripts\\robot\\robotmoveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\robot\\robotmoveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|c:\\git\\pinkyrobot\\deliveryrobotviewer\\assets\\deliveryrobotviewer\\scripts\\robot\\robotviewspool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\robot\\robotviewspool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|c:\\git\\pinkyrobot\\deliveryrobotviewer\\assets\\deliveryrobotviewer\\scripts\\core\\systems\\robotstatesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\core\\systems\\robotstatesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|C:\\git\\pinkyrobot\\DeliveryRobotViewer\\assets\\deliveryrobotviewer\\scripts\\network\\datasources\\robotupdaterunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\network\\datasources\\robotupdaterunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|C:\\git\\pinkyrobot\\DeliveryRobotViewer\\assets\\deliveryrobotviewer\\scripts\\network\\datasources\\robotdataqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB38EE0-4062-6F64-5A25-5A8FA9944754}|Assembly-CSharp.csproj|solutionrelative:assets\\deliveryrobotviewer\\scripts\\network\\datasources\\robotdataqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 357,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RobotMoveItem.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotMoveItem.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotMoveItem.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotMoveItem.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotMoveItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T08:33:28.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RobotPresenter.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotPresenter.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotPresenter.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotPresenter.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotPresenter.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAApwEMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T08:34:12.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RobotModel.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotModel.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotModel.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotModel.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T02:42:31.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "webSocketClient.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Network\\Protoclos\\webSocketClient.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Network\\Protoclos\\webSocketClient.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Network\\Protoclos\\webSocketClient.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Network\\Protoclos\\webSocketClient.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwB0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T03:00:05.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RobotPresenterFactory.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotPresenterFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotPresenterFactory.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotPresenterFactory.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotPresenterFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T08:59:38.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RobotViewsPool.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotViewsPool.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotViewsPool.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotViewsPool.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotViewsPool.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwDAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T09:08:10.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RobotStateSystem.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\RobotStateSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\RobotStateSystem.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\RobotStateSystem.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\RobotStateSystem.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwCQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T08:24:26.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RobotUpDateRunner.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Network\\DataSources\\RobotUpDateRunner.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Network\\DataSources\\RobotUpDateRunner.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Network\\DataSources\\RobotUpDateRunner.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Network\\DataSources\\RobotUpDateRunner.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAawBwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T02:52:26.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataMapper.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\DataMapper.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\DataMapper.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\DataMapper.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\DataMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T02:38:32.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RobotDataQueue.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Network\\DataSources\\RobotDataQueue.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Network\\DataSources\\RobotDataQueue.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Network\\DataSources\\RobotDataQueue.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Network\\DataSources\\RobotDataQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T02:49:49.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 43,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RobotListItem.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotListItem.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotListItem.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotListItem.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Robot\\RobotListItem.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAnwCcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T08:31:44.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LivenessSystem.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\LivenessSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\LivenessSystem.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\LivenessSystem.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\LivenessSystem.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:49:20.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CoreBootstrap.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\CoreBootstrap.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\CoreBootstrap.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\CoreBootstrap.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\CoreBootstrap.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwDUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T04:57:05.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRobotDataSource.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\InterFaces\\IRobotDataSource.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\InterFaces\\IRobotDataSource.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\InterFaces\\IRobotDataSource.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\InterFaces\\IRobotDataSource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T04:56:57.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RobotRegisty.cs",
+              "DocumentMoniker": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\RobotRegisty.cs",
+              "RelativeDocumentMoniker": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\RobotRegisty.cs",
+              "ToolTip": "C:\\git\\pinkyrobot\\DeliveryRobotViewer\\Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\RobotRegisty.cs",
+              "RelativeToolTip": "Assets\\DeliveryRobotViewer\\Scripts\\Core\\Systems\\RobotRegisty.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvyYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T02:41:14.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

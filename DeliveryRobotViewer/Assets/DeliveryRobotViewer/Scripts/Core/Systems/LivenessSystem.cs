@@ -20,6 +20,7 @@ public class LivenessSystem : MonoBehaviour
         {
             if (item.isAlive && now - item.lastSeenTime > timeout)
             {
+                Debug.Log("²÷¾îÁü"+item.state);
                 item.Disconnected();
             }
         }

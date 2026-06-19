@@ -6,7 +6,7 @@ using UnityEngine;
 public class RobotModel
 {
     public string robotId { get; }// 프로퍼티읽기 전용   public string robotId >외부에서 수정 가능 
-
+    public string situation { get; private set; }
     public float battery { get; private set; }// 프로퍼티읽기 전용 클래스 내부에서만 수정 가능
     public Vector3 position { get; private set; }
     public Quaternion rotation { get; private set; }  //회전 값 생성
@@ -22,12 +22,13 @@ public class RobotModel
         this.robotId = robotId;
     }
 
-    public void UpdateRobotInfo(float dtoBattery, Vector3 dtoPosition, Quaternion quaternion,bool paylaod)
+    public void UpdateRobotInfo(float dtoBattery, Vector3 dtoPosition, Quaternion quaternion,string state,bool paylaod)
     {
         battery = dtoBattery;
         position = dtoPosition;
         rotation = quaternion;
         hsaPayload = paylaod;
+        situation = state;
         lastSeenTime=Time.time;
         isAlive = true;
     }

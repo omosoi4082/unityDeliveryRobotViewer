@@ -12,14 +12,17 @@ public class CoreBootstrap : MonoBehaviour
 
     [Header("SO")]
     [SerializeField] private RobotEventChannelSO eventChannelSO;
-    [SerializeField] private MqttTopicConfig topicConfig;
+    //[SerializeField] private MqttTopicConfig topicConfig;
 
     [SerializeField] private LivenessSystem liveness;
+
+    [Header("Network")]
+    [SerializeField] private WebSocketClient webSocketClient; 
 
     private float warningValue = 30f;
     private float dangerValue = 15f;
 
-    MqttDataSource mqttsource;
+    //MqttDataSource mqttsource;
     CancellationTokenSource tokenSource;
     RobotUpDateRunner upDateRunner;
     RobotPresenterFactory factory;
@@ -31,17 +34,18 @@ public class CoreBootstrap : MonoBehaviour
         factory = new RobotPresenterFactory(movePool, listPool, eventChannelSO);
         var registy=new RobotRegisty(stateSystem, factory, eventChannelSO);
         var queue = new RobotDataQueue();
-        mqttsource = new MqttDataSource(queue, topicConfig);
+       // mqttsource = new MqttDataSource(queue, topicConfig);
         tokenSource=new CancellationTokenSource();
         var map = new DataMapper(registy);
         upDateRunner = new RobotUpDateRunner(queue, map);
         liveness.Initialized(registy);
+        webSocketClient.Init(queue);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        mqttsource.StartAsync(tokenSource.Token).Forget();
+       // mqttsource.StartAsync(tokenSource.Token).Forget();
         upDateRunner.StartRun(tokenSource.Token); 
     }
 
@@ -53,7 +57,7 @@ public class CoreBootstrap : MonoBehaviour
     private async UniTask CleanupAsync()
     {
         tokenSource?.Cancel();  
-        if(mqttsource!=null)await mqttsource.StopAsync();
+       // if(mqttsource!=null)await mqttsource.StopAsync();
         
         tokenSource?.Dispose();
         factory?.Dispose(); 

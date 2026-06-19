@@ -38,6 +38,7 @@ public class RobotPresenterFactory
         {
             return;
         }
+      
         robot.AllUPdate(model);
     }
     public void SelcetPresent(RobotPresenter presenter)

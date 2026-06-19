@@ -14,6 +14,7 @@ public class RobotListItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public TextMeshProUGUI yaw;
     public TextMeshProUGUI batteryState;
     public TextMeshProUGUI battery;
+    public TextMeshProUGUI situation;
     public TextMeshProUGUI haspaylaod;
     public TextMeshProUGUI online;
     public Action OnClickde;
@@ -33,7 +34,7 @@ public class RobotListItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     public void OnListUpData(RobotModel model)
     {
-        if (!model.isAlive) return;
+        if (!model.isAlive ) return;
         _model = model;
         id.text = model.robotId;
         px.text = model.position.x.ToString("F1");
@@ -41,7 +42,8 @@ public class RobotListItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         Vector3 euler = model.rotation.eulerAngles;
         yaw.text = euler.ToString("F1");
         battery.text = model.battery.ToString();
-        haspaylaod.text = model.hsaPayload ? "ON" : "Dff";
+        situation.text = model.situation;
+        //haspaylaod.text = model.hsaPayload ? "ON" : "Dff";
         StateUpdate(model.state);
     }
     public void OnLiveness(RobotModel model)

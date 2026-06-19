@@ -29,11 +29,11 @@ public class RobotRegisty
         return robotModel;
     }
 
-    public void UpdateRobotDate(string id, float battery, Vector3 pos, Quaternion quaternion, bool paylaod)
+    public void UpdateRobotDate(string id, float battery, Vector3 pos, Quaternion quaternion,string state ,bool paylaod=false)
     {
         var model = GetOrCreate(id);
         presenterFactory.PresenterGetOrCreate(model);
-        model.UpdateRobotInfo(battery, pos, quaternion, paylaod);
+        model.UpdateRobotInfo(battery, pos, quaternion, state, paylaod);
        
         _stateSystem.Evaluate(model);
         eventChannelSO.Raise(model);

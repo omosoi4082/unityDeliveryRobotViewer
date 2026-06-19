@@ -10,10 +10,29 @@ public class DataMapper
 
     public void Apply(RobotDTO dTO)
     {
-        _registy.UpdateRobotDate(dTO.robotId,
+
+        float originX = -0.214f;
+        float originY = -0.196f;
+
+        /* float unityX = dTO.px - originX;  // dto.px + 0.214
+         float unityZ = dTO.py - originY;  // dto.py + 0.196*/
+        float unityX = dTO.px;
+        float unityZ = dTO.py;
+        float yawDeg = dTO.yaw * Mathf.Rad2Deg;
+        float reb = dTO.battery * 100f;
+        _registy.UpdateRobotDate(
+            dTO.robotId,
+            reb,
+            new Vector3(unityX, 0f, unityZ),
+            Quaternion.Euler(0f, -yawDeg, 0f),
+            dTO.state
+        );
+        /*_registy.UpdateRobotDate(
+            dTO.robotId,
             dTO.battery,
             new Vector3(dTO.px, dTO.py, dTO.pz),
             Quaternion.Euler(0, dTO.yaw, 0),//회전값 넣을때 사용
-            dTO.hsaPayload);
+            dTO.state
+           );*/
     }
 }
