@@ -12,8 +12,12 @@ public class RobotListItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public TextMeshProUGUI px;
     public TextMeshProUGUI pz;
     public TextMeshProUGUI yaw;
-    public TextMeshProUGUI batteryState;
+   
     public TextMeshProUGUI battery;
+    public Image filled;
+    [SerializeField] private Image onlineimg;
+  
+
     public TextMeshProUGUI situation;
     public TextMeshProUGUI haspaylaod;
     public TextMeshProUGUI online;
@@ -22,9 +26,14 @@ public class RobotListItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public Action OnHoverExit;
 
     private bool _isAlive;
-
+    public Color fNormal;
+    public Color fWarning;
+    public Color fDanger;
     public Color enter;
     public Color exit;
+
+    [SerializeField] Color on;
+    [SerializeField] Color off;
 
     public void OnPointerEnter(PointerEventData eventData) => OnHoverEnter?.Invoke();
 
@@ -50,6 +59,8 @@ public class RobotListItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     {
         _isAlive = model.isAlive;
         online.text = _isAlive ? "Online" : "Offline";
+        onlineimg.color = _isAlive ? on : off;
+
     }
 
 
@@ -58,16 +69,16 @@ public class RobotListItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         switch (state)
         {
             case RobotState.Normal:
-                batteryState.text = "Normal";
+                filled.color = fNormal;
                 break;
             case RobotState.Warning:
-                batteryState.text = "Warning";
+                filled.color = fWarning;
                 break;
             case RobotState.Danger:
-                batteryState.text = "Danger";
+                filled.color = fDanger;
                 break;
             default:
-                batteryState.text = "Normal";
+                filled.color = fNormal;
                 break;
         }
     }

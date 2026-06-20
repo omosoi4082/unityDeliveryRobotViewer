@@ -11,7 +11,7 @@ public class RobotMoveItem : MonoBehaviour
     public Action OnHoverEnter;
     public Action OnHoverExit;
 
-    public CinemachineCamera cam;
+  /*  public CinemachineCamera cam;*/
     public NavMeshAgent navMeshAgent;
 
     public MeshRenderer renderer;
@@ -24,7 +24,7 @@ public class RobotMoveItem : MonoBehaviour
     private void Start()
     {
        
-        cam.Priority = 0;
+       // cam.Priority = 0;
         renderer.material = onlive;
         mark.SetActive(false);
     }

@@ -11,11 +11,6 @@ public class DataMapper
     public void Apply(RobotDTO dTO)
     {
 
-        float originX = -0.214f;
-        float originY = -0.196f;
-
-        /* float unityX = dTO.px - originX;  // dto.px + 0.214
-         float unityZ = dTO.py - originY;  // dto.py + 0.196*/
         float unityX = dTO.px;
         float unityZ = dTO.py;
         float yawDeg = dTO.yaw * Mathf.Rad2Deg;

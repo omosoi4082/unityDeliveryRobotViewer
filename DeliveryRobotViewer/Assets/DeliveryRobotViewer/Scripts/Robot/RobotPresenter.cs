@@ -46,13 +46,13 @@ public class RobotPresenter
     public void Select()
     {
         _isSelect = true;
-        _moveitem.cam.Priority = _selectedIndex;
+       // _moveitem.cam.Priority = _selectedIndex;
 
     }
     public void Deselect()
     {
         _isSelect = false;
-        _moveitem.cam.Priority = _nonSelectedIndex;
+       // _moveitem.cam.Priority = _nonSelectedIndex;
         _moveitem.mark.SetActive(false);
         _listItem.bg.color = _listItem.exit;
     }
@@ -82,7 +82,7 @@ public class RobotPresenter
     void Reset()
     {
         _isSelect = false;
-        _moveitem.cam.Priority = _nonSelectedIndex;
+       // _moveitem.cam.Priority = _nonSelectedIndex;
         _moveitem.mark.SetActive(false);
         _listItem.bg.color = _listItem.exit;
         _listItem.OnHoverEnter -= MoveEnter;
