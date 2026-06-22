@@ -34,6 +34,7 @@ public class RobotPresenter
     private void MoveEnter()
     {
         _moveitem.mark.SetActive(true);
+        if (_model.robotId != null) { _moveitem.id.text = _model.robotId; }
         _listItem.bg.color = _listItem.enter;
     }
     private void MoveExit()
@@ -46,13 +47,13 @@ public class RobotPresenter
     public void Select()
     {
         _isSelect = true;
-       // _moveitem.cam.Priority = _selectedIndex;
+     
 
     }
     public void Deselect()
     {
         _isSelect = false;
-       // _moveitem.cam.Priority = _nonSelectedIndex;
+      
         _moveitem.mark.SetActive(false);
         _listItem.bg.color = _listItem.exit;
     }

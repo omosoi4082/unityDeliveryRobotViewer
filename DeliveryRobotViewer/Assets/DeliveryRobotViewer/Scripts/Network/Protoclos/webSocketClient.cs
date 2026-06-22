@@ -94,7 +94,7 @@ public class WebSocketClient : MonoBehaviour
                 return;
 
             _queue.Enqueue(dto);
-            Debug.Log("dto"+ dto.px);
+          
         }
         catch (Exception e)
         {

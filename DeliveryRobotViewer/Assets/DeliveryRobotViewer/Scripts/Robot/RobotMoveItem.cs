@@ -1,15 +1,19 @@
 using System;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class RobotMoveItem : MonoBehaviour
 {
     public GameObject mark;
+    public TMP_Text id;
     public Action OnClickde;
     public Action OnHoverEnter;
     public Action OnHoverExit;
     public MeshRenderer renderer;
     public Material onlive;
     public Material offlive;
+    
     private bool _isAlive;
 
     [Header("Lerp Settings")]
@@ -20,8 +24,11 @@ public class RobotMoveItem : MonoBehaviour
     private Quaternion _targetRotation;
     private bool _hasTarget;
 
+    
+
     private void Start()
     {
+       
         renderer.material = onlive;
         mark.SetActive(false);
     }
@@ -40,7 +47,9 @@ public class RobotMoveItem : MonoBehaviour
         _targetPosition = model.position;
         _targetRotation = model.rotation;
         _hasTarget = true;
+       
     }
+
 
     public void OnLiveness(RobotModel model)
     {
