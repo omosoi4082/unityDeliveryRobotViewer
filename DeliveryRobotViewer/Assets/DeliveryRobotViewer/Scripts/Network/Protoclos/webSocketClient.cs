@@ -27,7 +27,7 @@ public class WebSocketClient : MonoBehaviour
     void Start()
     {
         _cts = new CancellationTokenSource();
-        ipInputField.text = "192.168.1.80";
+        ipInputField.text = "192.168.4.2";
         connet.onClick.AddListener(OnConnectButtonClicked);
     }
     public void OnConnectButtonClicked()

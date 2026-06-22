@@ -11,15 +11,15 @@ public class DataMapper
     public void Apply(RobotDTO dTO)
     {
 
-        float unityX = dTO.px;
-        float unityZ = dTO.py;
-        float yawDeg = dTO.yaw * Mathf.Rad2Deg;
+        float unityX = dTO.px ;
+        float unityZ = dTO.py ;
+        float yawDeg = dTO.yaw -90f;
         float reb = dTO.battery * 100f;
         _registy.UpdateRobotDate(
             dTO.robotId,
             reb,
             new Vector3(unityX, 0f, unityZ),
-            Quaternion.Euler(0f, -yawDeg, 0f),
+            Quaternion.Euler(0f, yawDeg, 0f),
             dTO.state
         );
         /*_registy.UpdateRobotDate(

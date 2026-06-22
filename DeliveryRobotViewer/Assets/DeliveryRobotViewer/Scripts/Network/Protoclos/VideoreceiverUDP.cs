@@ -57,6 +57,7 @@ public class VideoreceiverUDP : MonoBehaviour
         lock (_lock)
         {
             jpeg = _pendingJpeg;
+           
             _pendingJpeg = null;
         }
 
@@ -64,6 +65,7 @@ public class VideoreceiverUDP : MonoBehaviour
         {
             if (Time.time - _lastFrameTime > noSignalTimeout && !_showingNoSignal)
                 ShowNoSignal();
+            Debug.Log($"[jpeg]: null");
             return;
         }
 
@@ -76,6 +78,7 @@ public class VideoreceiverUDP : MonoBehaviour
             displayImage.texture = _texture;
             displayImage.color = Color.white;
             noSignalText.gameObject.SetActive(false);
+            Debug.Log($"[jpeg]: _texture");
         }
     }
     private void ShowNoSignal()
@@ -94,7 +97,9 @@ public class VideoreceiverUDP : MonoBehaviour
         {
             try
             {
+               
                 byte[] data = _udpClient.Receive(ref endpoint);
+                Debug.Log($"[ReceiveLoop]: {data.Length}");
                 if (data.Length < 8) continue;
 
                 // 헤더 파싱 (big-endian)
@@ -106,6 +111,7 @@ public class VideoreceiverUDP : MonoBehaviour
                 Buffer.BlockCopy(data, 8, payload, 0, payload.Length);
 
                 AssembleFrame(frameId, chunkId, totalChunks, payload);
+               
             }
             catch (SocketException)
             {
@@ -123,6 +129,7 @@ public class VideoreceiverUDP : MonoBehaviour
         if (!_frameBuffer.ContainsKey(frameId))
         {
             _frameBuffer[frameId] = new FrameData { total = total };
+            Debug.Log($"[_frameBuffer]: {frameId}");
         }
 
         /*_frameBuffer[frameId] = (new Dictionary<ushort, byte[]>(), total);
@@ -158,6 +165,7 @@ public class VideoreceiverUDP : MonoBehaviour
         lock (_lock)
         {
             _pendingJpeg = jpeg.ToArray();
+            Debug.Log($"[_pendingJpeg]: {_pendingJpeg.Length}");
         }
 
         _frameBuffer.Remove(frameId);

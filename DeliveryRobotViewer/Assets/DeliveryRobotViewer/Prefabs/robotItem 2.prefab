@@ -184,10 +184,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RobotMoveItem
   mark: {fileID: 6522889897287662609}
-  navMeshAgent: {fileID: 8598623509331359411}
   renderer: {fileID: 8895937368476012914}
   onlive: {fileID: 2100000, guid: 645892a2ca2db5d498e7edf04238a983, type: 2}
   offlive: {fileID: 2100000, guid: ea7bf56ed5c1a254798dc21124be7840, type: 2}
+  moveSpeed: 5
+  rotateSpeed: 5
 --- !u!1 &3443145355965193901
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,8 +217,8 @@ Transform:
   m_GameObject: {fileID: 3443145355965193901}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.59090906, y: -0.39855072, z: -0.083333336}
-  m_LocalScale: {x: 0.50724643, y: 0.09090905, z: 0.5833334}
+  m_LocalPosition: {x: -0.59999996, y: -0.42307687, z: -0.09090908}
+  m_LocalScale: {x: 0.5384617, y: 0.099999934, z: 0.6363636}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3460344682484565063}
@@ -296,7 +297,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5000001
   m_Height: 2
@@ -332,7 +333,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.02, z: 0}
-  m_LocalScale: {x: 0.11, y: 0.138, z: 0.12}
+  m_LocalScale: {x: 0.1, y: 0.13, z: 0.11}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4010192446797318343}
@@ -672,8 +673,8 @@ Transform:
   m_GameObject: {fileID: 6102157429549391887}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.59090906, y: -0.39855072, z: -0.083333336}
-  m_LocalScale: {x: 0.50724643, y: 0.09090905, z: 0.5833334}
+  m_LocalPosition: {x: 0.59999996, y: -0.42307687, z: -0.09090908}
+  m_LocalScale: {x: 0.5384617, y: 0.099999934, z: 0.6363636}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3460344682484565063}
@@ -752,7 +753,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5000001
   m_Height: 2
